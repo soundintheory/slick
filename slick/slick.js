@@ -724,9 +724,10 @@
                 break;
 
             default:
-                return;
+                return false;
         }
 
+        return false;
     };
 
     Slick.prototype.checkNavigable = function(index) {
